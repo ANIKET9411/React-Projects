@@ -1,0 +1,24 @@
+.header{
+    padding:0 10%;
+}
+.header p {
+    color:black;
+}
+.header h1{
+    color: #8E2448;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav a{
+    padding:1% 7%;
+    color: white;
+    background-color: rgb(193, 186, 186);
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav a:first-of-type{
+    background-color: #8E2448;
+}

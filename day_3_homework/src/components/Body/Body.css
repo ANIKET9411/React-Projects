@@ -1,0 +1,49 @@
+.body{
+    padding:0 10%;
+}
+img{
+    width:100%;
+    margin-top: 10px;
+}
+.section1{
+    margin:0 10%;
+    background-color:  #8E2448;
+    padding:2% 5%;
+    text-align: center;
+}
+.section1 h1,p{
+    color:white;
+}
+.section1 p{
+    padding:0 15%;
+    margin:25px 0; ;
+}
+.section1 button{
+    border:2px solid white;
+    padding:2% 4%;
+    margin:15px 4px;
+    background-color: #8E2448;
+    color: white;
+}
+.section2{
+    padding:0 10%;
+    margin:5% 0;
+}
+.section2 p{
+    padding: 10px 20px;
+    font-size: 18px;
+    color:black;
+}
+.section2 p:first-of-type{
+    color: #8E2448;
+}
+.section3{
+    padding: 0 10%;
+    text-align: center;
+}
+.section3 h1{
+    color:#8E2448;
+}
+.section3 p{
+    color:black;
+}
