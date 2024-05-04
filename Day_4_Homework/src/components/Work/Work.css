@@ -1,0 +1,42 @@
+.work{
+    display: flex;
+    align-items: center;
+}
+.work_img{
+    width:33%;
+    text-align: center;
+}
+.work_img i{
+    font-size: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: skyblue;
+}
+.work_items{
+    width:100%;
+}
+.work_item{
+    display: flex;
+    width:100%;
+}
+.work_item h3{
+    width:22%;
+    font-size: 16px;
+}
+.work_company{
+    display: flex;
+    width:100%;
+    justify-content: left;
+    align-items: center;
+}
+.work_company h3{
+    width:50%;
+}
+.work_company li{
+font-weight: bold;
+font-size: 16px;
+}
+.work_com p{
+margin:0;
+font-size: 13px;
+}

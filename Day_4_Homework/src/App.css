@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+ .container{
+  width:60%;
+  border: 2px solid black;
+ }
