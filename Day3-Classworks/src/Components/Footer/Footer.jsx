@@ -1,9 +1,9 @@
 import "./Footer.css";
-
+import logo from "../../assets/logo.png";
 function Footer() {
   return (
     <div className="footer">
-      <img src="src/assets/logo.png" alt="" />
+      <img src={logo} alt="" />
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
         consequuntur amet culpa cum itaque neque.
