@@ -1,11 +1,20 @@
 .footer{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    width:100%;
 }
 .footer_icon{
     margin: 30px;
     width:18%;
+    text-align: center;
 }
 .footer_icon i{
-font-size: 40px;
+    font-size: 50px;
+    border-radius: 50%;
+    text-align: center;
+    color: skyblue;
+    margin: 0 auto;
+}
+.footer_icon i:first-of-type{
+    width:30%;
 }
