@@ -1,0 +1,48 @@
+.main{
+    width:100%;
+    background-color: #6dcbc8;
+    text-align: center;
+    padding: 2%;
+}
+.main input{
+    height:40px;
+    border-radius: 10px;
+}
+.main button{
+    padding: 10px 23px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color:rgb(255, 234, 0);
+}
+.listcss{
+    display: flex;
+    justify-content: space-between;
+}
+.incre{
+    background-color: green;
+}
+.decre{
+    background-color: red;
+}
+li{
+    margin:10px;
+}
+.planner_list{
+    width:30%;
+    margin: 0 auto;
+    text-align: center;
+}
+.planner_list li{
+    display: flex;
+    justify-content: space-between;
+}
+.planner_list li p{
+    color: white;
+    width:25%;
+    font-size: 20px;
+}
+.planner_list button{
+    padding:10px 15px;
+    font-size: 18px;
+    border-radius: 10px;
+}
