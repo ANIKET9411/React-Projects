@@ -1,0 +1,26 @@
+.Navbar{
+    display:flex;
+    padding:0 5%;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+}
+.Navbar img{
+    width:200px;
+    height:60px;
+}
+.search_area{
+    display: flex;
+    justify-content: center;
+}
+.search_area input{
+height:50px;
+font-size: 20px;
+}
+.search_area i{
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    margin:0;
+    color:#f3de42;
+    }
