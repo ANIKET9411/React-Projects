@@ -1,0 +1,37 @@
+.main{
+    width:70%;
+    text-align: center;
+    margin: 8% auto;
+}
+.main_upper{
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    padding: 20px;
+}
+.main_upper h1{
+    color:rgb(83, 29, 29);
+}
+.main_upper_inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_upper_inner p{
+    font-size: 20px;
+}
+.main_upper_inner input{
+    font-size: 20px;
+    width:40px;
+}
+.main_upper_inner button{
+    padding:10px;
+    background-color:rgb(83, 29, 29);
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.main_lower p{
+    font-size: 20px;
+    color:rgb(83, 29, 29);
+}
