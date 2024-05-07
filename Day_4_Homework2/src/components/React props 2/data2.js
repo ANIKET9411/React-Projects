@@ -1,0 +1,12 @@
+const data2= [
+        {"name":"Source Code","synopsis":"A soldier wakes up in someone else's body and discovers he's part of an experimental government program to find the bomber of a commuter train within 8 minutes", "genre":"Action, Drama, Mystery", "director":"2011, Duncan Jones", "runtime":"2h 46m",
+        "img_url":"https://th.bing.com/th/id/OIP.3XNFxrH7_Uj8CFfx9e09_gHaKc?w=124&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7","year":"2024"},
+        {"name":"Bright","synopsis":"Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence, only those who can conquer their own fear will survive.", "genre":"Action, Fantasy, Thriller", "director":"2017, David Ayer", "runtime":"2h 35m",
+        "img_url":"https://resizing.flixster.com/vAMXFndR8C7FvLvRw7d7OaZumQ8=/fit-in/180x240/v2/https://resizing.flixster.com/gcRn4_emLo1Iz5ndbvUOKDYq35c=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzdhYTI2NDJkLTU5YTYtNDNkOS05ZWQxLWZiNjFlOTZmYjZlZS5qcGc=","year":"2021"},
+           {"name":"DUNE","synopsis":"Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence, only those who can conquer their own fear will survive.", "genre":"Sci-fi, Adventure, Action, Fantasy, Drama", "director":"Denis Villeneuve", "runtime":"2h 35m",
+        "img_url":"https://th.bing.com/th/id/OIP.WtizHhmm-yI1SvoNP2tFpwHaK-?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7","year":"2021"},
+        {"name":"Tomb Raider","synopsis":"Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence, only those who can conquer their own fear will survive.", "genre":"Action, Adventure, Fantasy", "director":"2018, Roar Uthaug", "runtime":"2h 35m",
+        "img_url":"https://th.bing.com/th/id/OIP.JdfWjoz65o7UEdor2uh71wHaLH?w=204&h=306&c=7&r=0&o=5&dpr=1.3&pid=1.7"}
+        
+    ]
+export default data2;

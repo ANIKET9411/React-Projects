@@ -1,0 +1,13 @@
+.props1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.props_card{
+    text-align: center;
+    width:18%;
+}
+.props_card div{
+    margin:0 auto;
+}
