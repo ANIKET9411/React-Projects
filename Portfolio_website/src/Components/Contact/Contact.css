@@ -1,0 +1,63 @@
+.contact_main{
+    display: flex;
+    padding:5% 10%;
+}
+.contact_left{
+    width:48%;
+    padding-left: 2%;
+}
+.contact_left h1{
+   border-bottom:7px solid black ;
+   display: inline-block;
+}
+.contact_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.contact_items i{
+    width:23%;
+    font-size: 30px;
+}
+.contact_item{
+    width:70%;
+    text-align: left;
+    padding:0;
+}
+.contact_item h3,p{
+    text-align: left;
+    padding:0;
+    font-size: 1.3rem;
+}
+.contact_right{
+    width:34%;
+    padding:4% 8%;
+    position: relative;
+}
+.contact_right input{
+width:98%;
+height:40px;
+margin:15px 0;
+
+}
+textarea{
+    width:98%;
+}
+.contact_right button{
+    width:35%;
+    text-align: center;
+    margin:15px 32.5%;
+    padding:15px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+svg{
+    position: absolute;
+    top:0;
+    right:50px;
+}

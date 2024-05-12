@@ -1,0 +1,14 @@
+import Social_icons from "../Social_icons/Social_icons";
+import profile from "../../Components/My work/photos/profile.png";
+import "./Home.css";
+function Home() {
+  return (
+    <div id="home" className="home">
+      <img src={profile} width="250" height="250"></img>
+      <h1>Aniket Jauhri</h1>
+      <p>Frontend Developer</p>
+      <Social_icons />
+    </div>
+  );
+}
+export default Home;

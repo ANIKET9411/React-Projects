@@ -1,0 +1,9 @@
+.social_icons a i{
+    font-size: 35px;
+    margin: 5px 8px;
+    color:white;
+}
+.social_icons a i:hover{
+    font-size: 40px;
+    transition: all ease 0.3s;
+}

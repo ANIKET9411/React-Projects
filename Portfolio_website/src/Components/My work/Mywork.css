@@ -1,0 +1,111 @@
+.mywork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5% 0;
+}
+
+.mywork_inner {
+    width: 80%;
+}
+.mywork_inner h1{
+    border-bottom:5px solid black ;
+   display: inline-block;
+}
+.mywork_nav {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    padding: 20px;
+    /* border: 2px solid black; */
+    margin-bottom: 20px;
+}
+
+.mywork_main {
+    display: flex;
+    justify-content: space-between;
+    /* padding:0 10%; */
+}
+
+.Project {
+    border-radius: 15px;
+    width: 30%;
+    border: 2px solid black;
+    overflow: hidden;
+    position: relative;
+    height:300px;
+}
+
+.Project a,
+p {
+    padding: 0 30px;
+    
+}
+.Project a i{
+    font-size: 2rem;
+    color:white;
+    margin-top: 30px;
+}
+.Project img {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.project_detail{
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: -150px;
+    width: 100%;
+    height: 0%;
+    transition: height 0.5s;
+    /* padding:0 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.817);
+}
+.project_detail p{
+    padding:0 30px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.Project:hover img{
+    transform: scale(1.3);
+    transition:all ease-in-out 0.5s;
+}
+.Project:hover .project_detail {
+    height: 100%;
+    top:0;
+}
+
+ /* animation effect  */
+ 
+ .menu span{
+    font-size: 22px;
+    color: black;
+    position: relative;
+    padding: 4px 0;
+  }
+  .menu span::before{
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s transform ease;
+    transform: scale3d(0,1,1);
+    transform-origin: 0 50%;
+  }
+  .menu span:hover::before{
+    transform: scale3d(1,1,1);
+  }
+  .menu-1 span::before{
+    background: #0f0f0f;
+    transform-origin: 100% 50%;
+  }
+  .menu-1 span:hover::before{
+    transform-origin: 0 50%;
+  }

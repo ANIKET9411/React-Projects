@@ -1,0 +1,18 @@
+.about_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://static.vecteezy.com/system/resources/previews/001/874/132/original/abstract-geometric-white-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+     width:50%;
+     line-height: 1.5;
+     text-align: justify;
+     padding:7% 0 ;
+}
+.about h1{
+    border-bottom:7px solid black ;
+   display: inline-block;
+}

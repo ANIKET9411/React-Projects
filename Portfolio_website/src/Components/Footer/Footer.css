@@ -1,0 +1,12 @@
+.footer{
+    background-color: black;
+    text-align: center;
+    padding:5%;
+    background: url(https://www.desktopbackground.org/download/2560x1440/2010/10/09/92487_noir-dark-and-stylish-wallpapers-hd-wallpapers_2560x1600_h.jpg);
+    background-size: cover;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
