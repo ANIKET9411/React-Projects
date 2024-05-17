@@ -1,0 +1,30 @@
+.searchArea{
+    background-color: red;
+    width:45%;
+    /* height: 25vh; */
+    
+    text-align: center;
+    margin: 0 auto;
+    padding:5%;
+    background-color: white;
+    box-shadow: 0 0 15px black;
+}
+.searchArea input{
+    height:40px;
+    font-size: 20px;
+}
+.searchArea button{
+    height:45px;
+    padding:0 15px;
+    background-color: rgb(47, 131, 234);
+    color: white;
+    font-weight: bold;
+}
+.Searchportion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayArea{
+    margin:20px;
+}
