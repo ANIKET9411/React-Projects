@@ -44,11 +44,13 @@ export async function getSpecifiedTypeExercise(searchvalue){
           return error;
       }
 }
- export async function getAllexercise(){
+ export async function getAllexercise(page){
+  console.log(page);
     const options = {
         method: 'GET',
-        url: '',
-        params: {limit: '20'},
+        url: ``,
+        params: {limit: '10',
+        },
         headers: {
           'X-RapidAPI-Key': '8179e9b7f4msh26459e568c8c34dp16ba99jsnfd23b1104681',
           'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
@@ -58,6 +60,7 @@ export async function getSpecifiedTypeExercise(searchvalue){
       try {
           const response = await axiosInstance.request(options);
           console.log(response.data);
+          
           return response.data;
       } catch (error) {
           console.error(error);

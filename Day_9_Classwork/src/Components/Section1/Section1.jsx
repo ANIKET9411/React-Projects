@@ -19,6 +19,7 @@ function Section1() {
   const navigate = useNavigate();
   const [searchvalue, setSearchvalue] = useState();
   const [exerciselist, setExerciselist] = useState([]);
+  const [currentpage, setCurrentpage] = useState(1);
 
   async function getExercise(val) {
     getSpecifiedTypeExercise(val).then((data) => {
@@ -26,13 +27,13 @@ function Section1() {
     });
   }
   function getselectedexercise(id) {
-    navigate(`/exercise/:${id}`);
+    navigate(`/exercise/${id}`);
   }
   useEffect(() => {
-    getAllexercise().then((data) => {
+    getAllexercise(currentpage).then((data) => {
       setExerciselist(data);
     });
-  }, []);
+  }, [currentpage]);
   return (
     <>
       <div style={{ position: "relative" }}>
@@ -132,6 +133,25 @@ function Section1() {
             );
           })}
         </div>
+      </div>
+      <div className="pagination">
+        <button
+          disabled={currentpage <= 1 ? true : false}
+          // style={{ color: currentpage <= 1 ? "grey" : "black" }}
+          onClick={() => {
+            currentpage > 1 && setCurrentpage(currentpage - 1);
+          }}
+        >
+          left
+        </button>
+        {currentpage}
+        <button
+          onClick={() => {
+            setCurrentpage(currentpage + 1);
+          }}
+        >
+          right
+        </button>
       </div>
     </>
   );
