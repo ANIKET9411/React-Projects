@@ -1,0 +1,15 @@
+.main{
+    text-align: center;
+    margin:4%;
+    width:90%;
+    padding:20px;
+    background-color: #1F2937;
+    color:white;
+    border-radius: 10px;
+}
+.main h1{
+font-size: 28px;
+}
+.main p{
+    color: rgb(180, 176, 176);
+    }
