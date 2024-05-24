@@ -22,7 +22,7 @@ function Expenses() {
               key={expense.id}
               className="flex justify-between p-2 m-2 text-3xl"
             >
-              <p>{expense.name}</p>
+              <p className="w-2/6">{expense.name}</p>
               <p>Rs{expense.cost}</p>
               <button
                 onClick={() => {
