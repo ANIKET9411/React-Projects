@@ -1,12 +1,17 @@
 import { useContext, useEffect, useState } from "react";
 import { Contexts } from "../../context";
-
+import { employees } from "../../Data/Data";
 function Right() {
   const { list, setList } = useContext(Contexts);
   const [AGE, setAGE] = useState(0);
   const removefromlist = (ids) => {
     let updatedlist = list.filter((employee) => {
       return employee.id !== ids;
+    });
+    employees.map((emp) => {
+      if (emp.id === ids) {
+        emp.isEnable = true;
+      }
     });
     setList(updatedlist);
   };
@@ -36,6 +41,7 @@ function Right() {
           Sort By Age
         </button>
         {list.map((employee) => {
+          console.log(employee);
           return (
             <div
               key={employee.id}

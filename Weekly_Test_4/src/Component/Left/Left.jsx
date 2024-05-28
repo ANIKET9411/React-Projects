@@ -4,16 +4,23 @@ import { Contexts } from "../../context";
 function Left() {
   const { list, setList } = useContext(Contexts);
   //   const [active, setActive] = useState(true);
-  const addtoTeam = (name, age, id) => {
+  const addtoTeam = (employee) => {
     setList([
       ...list,
       {
-        setter: true,
-        id,
-        name,
-        age,
+        id: employee.id,
+        name: employee.first_name,
+        age: employee.age,
       },
     ]);
+    // employees.map((emp)=>{
+    //   return {
+    //     if(emp.id===employee.id)
+    //     {
+
+    //     }     }
+    // })
+    employee.isEnable = false;
     // setActive(false);
   };
   return (
@@ -27,11 +34,11 @@ function Left() {
           >
             <h3 className="font-5xl w-32">{employee.first_name}</h3>
             <p>{employee.age}</p>
-            {!employee.setter && (
+            {employee.isEnable && (
               <button
                 onClick={(e) => {
                   console.log(e);
-                  addtoTeam(employee.first_name, employee.age, employee.id);
+                  addtoTeam(employee);
                 }}
                 className="px-5 py-2 bg-blue-600 rounded-xl"
               >
