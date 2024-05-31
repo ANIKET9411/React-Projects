@@ -1,6 +1,7 @@
 import { useReducer, useState } from "react";
 import { Bar, Line } from "react-chartjs-2";
 // import { Chart } from "chart.js";
+import * as XLSX from "xlsx";
 import {
   Chart as ChartJS,
   LineElement,
@@ -109,6 +110,12 @@ function Todos() {
       position: "top",
     },
   };
+  const handleExportdata = () => {
+    let wb = XLSX.utils.book_new();
+    let ws = XLSX.utils.json_to_sheet(state.todos);
+    XLSX.utils.book_append_sheet(wb, ws, "MySheet");
+    XLSX.writeFile(wb, "myexcel.xlsx");
+  };
   return (
     <div>
       <div className="text-center">
@@ -137,6 +144,7 @@ function Todos() {
         </button>
       </div>
       <div className="p-5">
+        <button onClick={handleExportdata}>EXPORT</button>
         <span className="text-3xl mr-5"> Find:</span>
         <input
           className="h-10 p-2 border-2 border-solid border-white"
