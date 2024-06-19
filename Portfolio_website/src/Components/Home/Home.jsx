@@ -1,5 +1,5 @@
 import Social_icons from "../Social_icons/Social_icons";
-import profile from "../../Components/My work/photos/profile.png";
+import profile from "../../assets/updated_profile_image.jpg";
 import "./Home.css";
 function Home() {
   return (
